@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { TbArrowNarrowRight } from 'react-icons/tb'
-import { motion } from 'framer-motion'
 
 export default function CatalogueSection(){
     const items = [
