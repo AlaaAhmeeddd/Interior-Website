@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const AboutComponent = () => {
     return (
-        <div className='container py-12 xl:py-17 h-auto mx-auto xl:px-20'>
+        <div className='container py-12 xl:py-17 h-auto mx-auto xl:px-28'>
             <div className='flex gap-6 items-center lg:flex-row flex-col'>
                 <motion.div 
                     initial="initial"

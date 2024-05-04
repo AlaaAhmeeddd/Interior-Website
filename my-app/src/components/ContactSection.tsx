@@ -55,7 +55,7 @@ const posts = [
 
 export default function ContactSection() {
     return (
-        <div className='container h-auto xl:px-20 pb-10 mx-auto'>
+        <div className='container h-auto xl:px-28 mx-auto'>
             <div>
                 <div className='pb-14'>
                     <motion.h2 

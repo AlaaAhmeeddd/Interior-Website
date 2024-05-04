@@ -48,7 +48,7 @@ const imgURLs = [
 export default function CategorySwiper() {
     return (
         <div className='lg:py-20 py-8'>
-            <div className='container h-auto xl:px-20 pb-10'>
+            <div className='container h-auto xl:px-28 pb-10'>
                 <div>
                     <motion.h1 
                         initial="initial"

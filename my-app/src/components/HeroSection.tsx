@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 const HeroSection = () => {
     return (
-        <div className='container py-12 xl:py-17 h-auto mx-auto text-center xl:px-20 lg:text-left lg:flex lg:justify-between'>
+        <div className='container py-12 xl:py-17 h-auto mx-auto text-center xl:px-28 lg:text-left lg:flex lg:justify-between'>
             <div className='lg:w-1/2 xl:py-10 lg:py-8'>
                 <motion.p
                     initial="initial"
