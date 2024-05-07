@@ -7,7 +7,6 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { TbArrowUpRight } from 'react-icons/tb'
-
 import {
   Form,
   FormControl,
@@ -26,7 +25,7 @@ const formSchema = z.object({
 })
 
 export default function Contact() {
-  
+  const [enabled, setEnabled] = useState(false)
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -42,7 +41,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="container py-24 sm:py-32 xl:px-28">
+    <div className="container py-24 sm:py-28 xl:px-28">
       <div className="text-center">
         <h1 className="font-bold text-3xl tracking-tighter">Contact Sales</h1>
         <p className="text-muted-foreground text-lg font-semibold mt-2">Please feel free to ask anything</p>
@@ -114,10 +113,10 @@ export default function Contact() {
               )}
               />
             </div>
-              <Button className='inline-flex justify-center rounded-full px-20 gap-2 shadow-lg text-white
-              hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2 mt-10'>
-                Book now <TbArrowUpRight/>
-              </Button>
+            <Button className='inline-flex justify-center rounded-full px-20 gap-2 shadow-lg text-white
+            hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2 mt-10'>
+              Book now <TbArrowUpRight/>
+            </Button>
           </form>
         </Form>
       </div>
