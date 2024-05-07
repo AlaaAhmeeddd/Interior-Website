@@ -17,7 +17,7 @@ export default function About() {
   return (
     <div>
       <div className="bg-[url('/images/whoweare.jpg')] bg-cover bg-center">
-        <h1 className="font-bold text-5xl text-center lg:py-48 py-32 text-black">
+        <h1 className="font-bold md:text-5xl text-4xl text-center lg:py-48 py-32 text-black">
           Who are we?
         </h1>
       </div>

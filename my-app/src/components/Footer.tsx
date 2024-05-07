@@ -17,7 +17,7 @@ export default function Footer() {
                         whileInView={"animate"}
                         variants={titleVariants}
                     >
-                        <h2 className='uppercase font-bold py-2'>company</h2>
+                        <h2 className='uppercase font-bold py-4'>company</h2>
                         <div className='flex flex-col'>
                             <Link href='/' className='hover:underline py-1'>About Us</Link>
                             <Link href='/' className='hover:underline py-1'>Press</Link>
@@ -30,7 +30,7 @@ export default function Footer() {
                         whileInView={"animate"}
                         variants={desVariants}
                     >
-                        <h2 className='uppercase font-bold py-2'>Development</h2>
+                        <h2 className='uppercase font-bold py-4'>Development</h2>
                         <div className='flex flex-col'>
                             <Link href='/' className='hover:underline py-1'>Documentation</Link>
                             <Link href='/' className='hover:underline py-1'>References</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
                         whileInView={"animate"}
                         variants={tagVariants}
                     >
-                        <h2 className='uppercase font-bold py-2'>Connect</h2>
+                        <h2 className='uppercase font-bold py-4'>Connect</h2>
                         <div className='flex flex-col'>
                             <Link href='/' className='hover:underline py-1'>Instagram</Link>
                             <Link href='/' className='hover:underline py-1'>Twitter</Link>
@@ -58,7 +58,7 @@ export default function Footer() {
                         whileInView={"animate"}
                         variants={titleVariants}
                     >
-                        <h2 className='uppercase font-bold py-2'>Stay updated</h2>
+                        <h2 className='uppercase font-bold py-4'>Stay updated</h2>
                         <div className='flex relative lg:max-w-sm'>
                             <Input placeholder='Email address' className='rounded-3xl py-6 px-6'/> 
                             <Button className='text-white bg-black rounded-3xl absolute right-1 top-1 hover:border-2 hover:bg-white hover:border-black hover:text-black'>
